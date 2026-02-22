@@ -81,7 +81,7 @@ const ServiceV2 = () => {
 			*/}
       <div className="feedback-section-fourteen position-relative zn2">
         <div className="container">
-          <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80">
+          <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80 md-mt-150">
             <div className="row">
               <h2 className="main-title fw-500 tx-dark service-title align-center-class">
                 Nuestros servicios
@@ -251,7 +251,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/media/img_84.jpg"
+                    src="/images/gallery/limpieza.jpg"
                     alt="shape"
                     className="lazy-img ms-auto"
                   />
@@ -313,9 +313,44 @@ const ServiceV2 = () => {
         </div>
       </div>
 
+       <div className="row">
+          <div className="valor-servicio">
+            <div className="fancy-short-banner-sixteen" data-aos="fade-up">
+              <div className="container">
+                <div className="bg-wrapper mt-150 pb-65 pt-65 mb-65 lg-pt-40 lg-pb-40">
+                  <div className="row">
+                    <div className="col-xl-10 col-md-11 m-auto">
+                      <div className="row align-items-center">
+                        <div className="col-lg-12">
+                          <div className="text-wrapper text-center text-lg-start md-pb-30 oferta-wrapper">
+                            <p className="w-500 m0 oferta-valor">
+                              Valor de nuestros servicios
+                            </p>
+                            <p className="w-500 text-white m0 oferta-porcentaje">
+                              25% DE CADA INGRESO POR RESERVA
+                            </p>
+                            <p className="w-500 text-white m0 oferta-servicios"> ESTO INCLUYE
+                              TODOS LOS SERVICIOS</p>
+                          </div>
+                        </div>
+
+                        {/* <div className="col-lg-5 ms-auto text-center text-lg-end">
+               <h2 className="main-title fw-500 text-white m0">
+                        Don’t hesitate to send us message.
+                      </h2>
+                  </div> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       <div className="feedback-section-fourteen position-relative zn2">
         <div className="container">
-          <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80">
+          <div className="line-bg-wrapper position-relative zn2 pt-150 pb-180 lg-pt-120 lg-pb-80">
             <div className="row">
               <div className="col-md-6" data-aos="fade-right">
                 <div className="title-style-five">
@@ -346,54 +381,21 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/administracion.jpg"
+                    src="/images/gallery/amueblado.jpg"
                     alt="shape"
                     className="lazy-img ms-auto servicios-img"
                   />
-                  <img
+                  {/* <img
                     src="/images/gallery/administracion-sub.jpg"
                     alt="shape"
                     className="lazy-img ms-auto administracion-sub-img"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="valor-servicio">
-            <div className="fancy-short-banner-sixteen" data-aos="fade-up">
-              <div className="container">
-                <div className="bg-wrapper pb-65 pt-65 mb-65 lg-pt-40 lg-pb-40">
-                  <div className="row">
-                    <div className="col-xl-10 col-md-11 m-auto">
-                      <div className="row align-items-center">
-                        <div className="col-lg-12">
-                          <div className="text-wrapper text-center text-lg-start md-pb-30">
-                            <div className="sc-title fs-18 pb-20">
-                              Valor de nuestros servicios
-                            </div>
-                            <h3 className="w-500 text-white m0">
-                              25% DE CADA INGRESO POR RESERVA.
-                            </h3>
-                            <h4 className="w-500 text-white m0"> ESTO INCLUYE
-                              TODOS LOS SERVICIOS</h4>
-                          </div>
-                        </div>
-
-                        {/* <div className="col-lg-5 ms-auto text-center text-lg-end">
-               <h2 className="main-title fw-500 text-white m0">
-                        Don’t hesitate to send us message.
-                      </h2>
-                  </div> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
 
       <div className="feedback-section-fourteen position-relative zn2">
@@ -402,18 +404,18 @@ const ServiceV2 = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
                 <div
-                  className="img-holder position-relative mt-25 img-wrapper"
+                  className="img-holder position-relative mt-25 img-wrapper diseno-img-wrapper"
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/huesped.jpg"
+                    src="/images/gallery/diseno-top.jpg"
                     alt="shape"
-                    className="lazy-img ms-auto servicios-img"
+                    className="lazy-img ms-auto diseno-top-img"
                   />
                   <img
-                    src="/images/gallery/huesped-sub.jpg"
+                    src="/images/gallery/diseno-bottom.jpg"
                     alt="shape"
-                    className="lazy-img ms-auto huesped-sub-img"
+                    className="lazy-img ms-auto diseno-bottom-img"
                   />
                 </div>
               </div>
@@ -492,7 +494,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/propiedad.jpg"
+                    src="/images/gallery/instalaciones.jpg"
                     alt="shape"
                     className="lazy-img ms-auto"
                   />
@@ -501,23 +503,24 @@ const ServiceV2 = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+   
+       <div className="row">
           <div className="valor-servicio">
             <div className="fancy-short-banner-sixteen" data-aos="fade-up">
               <div className="container">
-                <div className="bg-wrapper pb-65 pt-65 mb-65 lg-pt-40 lg-pb-40">
+                <div className="bg-wrapper mt-150 pb-65 pt-65 mb-65 lg-pt-40 lg-pb-40">
                   <div className="row">
                     <div className="col-xl-10 col-md-11 m-auto">
                       <div className="row align-items-center">
                         <div className="col-lg-12">
-                          <div className="text-wrapper text-center text-lg-start md-pb-30">
-                            <div className="sc-title fs-18 pb-20">
+                          <div className="text-wrapper text-center text-lg-start md-pb-30 oferta-wrapper">
+                            <p className="w-500 m0 oferta-valor">
                               Valor de nuestros servicios
-                            </div>
-                            <h3 className="w-500 text-white m0">
-                              20% DEL MONTO TOTAL PRESUPUESTO DEL CLIENTE ESTO
-                              INCLUYE SERVICIOS DE INSTALACIÓN
-                            </h3>
+                            </p>
+                            <p className="w-500 text-white m0 oferta-porcentaje">
+                              20% DEL MONTO TOTAL PRESUPUESTO DEL CLIENTE
+                            </p>
+                            <p className="w-500 text-white m0 oferta-servicios"> ESTO INCLUYE SERVICIOS DE INSTALACIÓN</p>
                           </div>
                         </div>
 

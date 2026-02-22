@@ -24,7 +24,6 @@ const RealEstate = () => {
 
       {/* HERO */}
       <Hero />
-
       {/* =============================================
           Feature Section 46 — LIHOST header section
       ============================================== */}
@@ -97,122 +96,41 @@ const RealEstate = () => {
       {/* =============================================
           SOBRE NOSOTROS
       ============================================== */}
-      <div className="container pt-150">
-        <div className="row">
-          <div className="col-lg-7" data-aos="fade-right">
-            <div className="title-style-five mb-65 md-mb-40">
-              <div className="sc-title-two fst-italic position-relative sobre-nosotros-container">
-                Sobre nosotros.
-              </div>
-              <h2 className="main-title fw-500 tx-dark">
-                Nuestro <br /> OBJETIVO
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-xl-8 col-lg-9 ms-auto">
-            <div className="ps-xxl-5" data-aos="fade-left">
-              <p className="text-lg tx-dark">
-                Ofrecer un servicio integral que transforme cada propiedad en un
-                espacio acogedor, funcional y atractivo, desde el diseño y
-                amueblado hasta la decoración y equipamiento completo. Nos
-                enfocamos en maximizar el potencial de cada propiedad,
-                asegurando que cumpla con los estándares más altos.
-              </p>
-
-              <p className="text-lg tx-dark">
-                Generar experiencias memorables para los huéspedes y la mayor
-                rentabilidad posible para los propietarios, cuidando cada
-                detalle con profesionalismo y dedicación.
-              </p>
-            </div>
-          </div>
-        </div>
+  <div className="container pt-150 nuestro-objetivo-wrapper">
+    <img src="/images/gallery/nuestro-objetivo-img.jpg" className="objetivo-img" alt="objetivos-img" />
+  <div className="row align-items-start">
+    {/* LEFT COLUMN */}
+    <div className="col-lg-6 mt-65 mb-65" data-aos="fade-right">
+      <div className="title-style-five mb-65 md-mb-40">
+        {/* <div className="sc-title-two fst-italic position-relative sobre-nosotros-container">
+          Sobre nosotros.
+        </div> */}
+        <h2 className="main-title fw-500 tx-dark">
+          Nuestro <br /> OBJETIVO
+        </h2>
       </div>
+    </div>
 
-      {/* =============================================
-          ABOUT SECTION
-      ============================================== */}
-      <div className="fancy-feature-fortyEight position-relative">
-        <div className="container">
-          <div className="line-bg-wrapper position-relative pt-200 pb-200 lg-pt-120 lg-pb-110">
-            <About />
-          </div>
-        </div>
+    {/* RIGHT COLUMN */}
+    <div className="col-lg-6 mt-65 mb-65" data-aos="fade-left">
+      <div className="ps-xxl-5">
+        <p className="text-lg tx-dark">
+          Ofrecer un servicio integral que transforme cada propiedad en un
+          espacio acogedor, funcional y atractivo, desde el diseño y
+          amueblado hasta la decoración y equipamiento completo. Nos
+          enfocamos en maximizar el potencial de cada propiedad.
+        </p>
+
+        <p className="text-lg tx-dark">
+          Generar experiencias memorables para los huéspedes y la mayor
+          rentabilidad posible para los propietarios, cuidando cada detalle con
+          profesionalismo y dedicación.
+        </p>
       </div>
+    </div>
 
-      {/* =============================================
-          FANCY SECTION
-      ============================================== */}
-      <FancySection />
-
-      {/* =============================================
-          BLOG
-      ============================================== */}
-      <div className="blog-section-six position-relative zn2 pt-150 pb-200 lg-pt-90 lg-pb-100">
-        <div className="container">
-          <div className="position-relative">
-            <div className="title-style-five text-center text-sm-start mb-30 lg-mb-10">
-              <h2 className="main-title fw-500 tx-dark">Our Blog</h2>
-            </div>
-
-            <div className="row gx-xxl-5">
-              <Blog />
-            </div>
-
-            <div className="btn-holder text-center">
-              <div className="btn-eighteen position-relative d-inline-block tx-dark">
-                <Link href="/blog/blog-v1" className="fw-500 tran3s">
-                  Check our all news <i className="fa-solid fa-angle-right" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <img
-          src="/images/shape/shape_163.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
-      </div>
-
-      {/* =============================================
-          FAQ
-      ============================================== */}
-      <div className="fancy-feature-fifty position-relative mt-200 lg-mt-100">
-        <div className="container">
-          <div className="row">
-            {/* LEFT */}
-            <div className="col-xl-5 col-lg-6" data-aos="fade-right">
-              <div className="title-style-five">
-                <h2 className="main-title fw-500 tx-dark">
-                  Question &amp; Answers.
-                </h2>
-              </div>
-              <p className="text-lg mt-40 mb-45 lg-mt-20 lg-mb-30">
-                Don’t find your answer here? Just send us a message.
-              </p>
-              <Link href="/faq" className="btn-one fw-500">
-                See More
-              </Link>
-            </div>
-
-            {/* RIGHT */}
-            <div className="col-xl-7 col-lg-6 ms-auto" data-aos="fade-left">
-              <Faq />
-            </div>
-          </div>
-        </div>
-
-        <img
-          src="/images/shape/shape_163.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
-      </div>
+  </div>
+</div>
 
       {/* FOOTER */}
       <Footer />

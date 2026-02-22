@@ -1,5 +1,34 @@
-.sobre-nosotros-container {
-  margin-top: 200px;
+
+.oferta-wrapper {
+  text-align: center;
+  p {
+    text-align: center;
+  }
+  .oferta-valor {
+    color: #ff733b;
+    text-align: center;
+    font-size: x-large;
+  }
+  .oferta-porcentaje {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .oferta-servicios {
+    font-size: x-large;
+  }
+
+}
+.diseno-img-wrapper {
+  max-height: 766px;
+}
+.title-style-five {
+  padding-top: 50px;
+}
+.nuestro-objetivo-wrapper {
+  .objetivo-img {
+    width: 100%;
+    border-radius: 6px;
+  }
 }
 .service-title {
   text-align: center;
@@ -45,6 +74,10 @@
 .huesped-text-wrapper {
   max-width: 480px;
   margin-left: 3rem;
+    @media (max-width: 800px) {
+    margin-left: 0;
+  }
+
 }
 .email-link {
   text-decoration: none;
