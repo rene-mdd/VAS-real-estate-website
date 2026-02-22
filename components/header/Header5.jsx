@@ -34,10 +34,10 @@ const Header5 = () => {
           <div className="logo order-lg-0">
             <Link href="/">
               <Image
-                src="/images/logo/logo_07.png"
+                src="/images/logo/logo-lihost-negro.png"
                 alt="logo"
-                width={93}
-                height={30}
+                width={100}
+                height={100}
               />
             </Link>
           </div>

@@ -310,21 +310,14 @@ const AboutUsV1 = () => {
                       </h2>
                     </div>
                   </div>
-                  {/* End .col-6 */}
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
-                    <Link
-                      href="/contact"
-                      className="btn-twentyOne fw-500 tran3s"
-                    >
-                      Get Started Today!
-                    </Link>
+               <p>hello</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* /.bg-wrapper */}
         </div>
       </div>
       {/* /.fancy-short-banner-sixteen */}

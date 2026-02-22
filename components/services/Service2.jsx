@@ -1,44 +1,27 @@
 const services = [
   {
     id: 1,
-    icon: "/images/icon/icon_143.svg",
-    title: "Core WordPress",
-    list: [
-      "Personalization",
-      "Third-Party Integrations",
-      "First-Party Analytics",
-      "Hosting Setup",
-      "Security",
-    ],
+    icon: "/images/icon/camera.png",
+    title: "Fotografías",
+    list: "Capturamos tu propiedad desde su mejor ángulo mediante sesiones fotográficas profesionales. Actualizamos las imágenes en la plataforma de Airbnb para reflejar la realidad del espacio y mantener un perfil atractivo y competitivo.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon_144.svg",
-    title: "Platform Audit",
-    list: ["Full Consultation", "Code Review", "Staff Augmentation", "Support"],
+    icon: "/images/icon/loudspeaker.png",
+    title: "Promociones",
+    list: "Promocionamos tu propiedad en las principales plataformas digitales. Destacamos tu propiedad conectando con una comunidad de viajeros activos que buscan experiencias únicas y alojamientos de calidad, aumentando el alcance y la demanda de reservas.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon_145.svg",
-    title: "Marketing",
-    list: [
-      "Microsites",
-      "Marketing Automation",
-      "SEO & SMM",
-      "Lead Generation",
-    ],
+    icon: "/images/icon/social-media.png",
+    title: "Redes sociales",
+    list: "Destacamos tu propiedad en nuestras cuentas oficiales @Li.HostRD, conectando con una comunidad de viajeros activos que buscan experiencias únicas y alojamientos de calidad.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon_146.svg",
-    title: "e-Commerce",
-    list: [
-      "Custom Checkout Flow",
-      "Customer Identity",
-      "Conversion Rate Optimization",
-      "Security Checkup",
-      "Data Entry",
-    ],
+    icon: "/images/icon/refresh.png",
+    title: "Análisis constantes",
+    list: "Realizamos un monitoreo constante del mercado para optimizar el precio de tu propiedad según la temporada, la demanda y la competencia, garantizando siempre la mayor rentabilidad posible.",
   },
 ];
 
@@ -52,13 +35,8 @@ const Service2 = () => {
               <img src={service.icon} alt="icon" className="lazy-img tran3s" />
             </div>
             <h4 className="title tx-dark">{service.title}</h4>
-            <ul className="style-none">
-              {service.list.map((item, index) => (
-                <li key={`${service.id}-${index}`}>{item}</li>
-              ))}
-            </ul>
+            <ul className="style-none">{service.list}</ul>
           </div>
-          {/* /.card-style-twentyThree */}
         </div>
       ))}
     </>

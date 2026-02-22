@@ -17,7 +17,7 @@ const index = () => {
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">
-                Best non-profit solution for charity.
+                Gestionamos tu propiedad a corta estancia como si fuera nuestra
               </p>
               <Social />
             </div>
@@ -28,7 +28,7 @@ const index = () => {
           </div>
           {/* End .row */}
           <p className="copyright text-center pt-30 m0">
-            © 2010 - {currentYear} jano inc.
+            © LI.HOST {new Date().getFullYear().toString()}
           </p>
         </div>
         {/* /.inner-wrapper */}

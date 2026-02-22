@@ -19,7 +19,7 @@ const ProperyFilter = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-5" data-aos="fade-right">
             <div className="title-style-eleven text-center text-md-start sm-mb-30">
-              <h2 className="main-title tx-dark">Best Property.</h2>
+              <h2 className="main-title tx-dark">Propiedades</h2>
             </div>
           </div>
           {/* End .col-lg-6 */}
