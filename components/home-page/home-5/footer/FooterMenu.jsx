@@ -3,22 +3,22 @@ const FooterMenu = () => {
     {
       title: "Menu",
       links: [
-        { title: "Inicio", href: "/" },
-        { title: "Servicios", href: "/service-v2" },
-        { title: "Contacto", href: "/contact-v1" },
+        { title: "Inicio", href: "/home/real-estate" },
+        { title: "Servicios", href: "/pages-menu/service-v2" },
+        { title: "Contacto", href: "/contact/contact-v1" },
         // { title: "Features", href: "/service-v1" },
         // { title: "Blog", href: "/blog-v1" },
       ],
       colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section
     },
     {
-      title: "Propiedades",
+      title: "",
       links: [
-        { title: "Propiedad 1", href: "/service-details" },
-        { title: "propiedad 2", href: "/service-details" },
-        { title: "propiedad 3", href: "/service-details" },
-        { title: "Propiedad 4", href: "/service-details" },
-        { title: "Propiedad 5", href: "/service-details" },
+        // { title: "Propiedad 1", href: "/service-details" },
+        // { title: "propiedad 2", href: "/service-details" },
+        // { title: "propiedad 3", href: "/service-details" },
+        // { title: "Propiedad 4", href: "/service-details" },
+        // { title: "Propiedad 5", href: "/service-details" },
       ],
       colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section
     },

@@ -27,9 +27,12 @@ const index = () => {
             <Address />
           </div>
           {/* End .row */}
-          <p className="copyright text-center pt-30 m0">
-            © LI.HOST {new Date().getFullYear().toString()}
+          <div className="vas-info-wrapper">
+          <p>
+            Creado por:
           </p>
+          <img src="/images/logo/vas-logo-blanco.png" width={100} />
+          </div>
         </div>
         {/* /.inner-wrapper */}
       </div>

@@ -1,8 +1,10 @@
 import BlockContact from "@/components/contact/BlockContact";
 import ContactForm from "@/components/contact/ContactForm";
 import Map from "@/components/contact/Map";
+import Footer from "@/components/home-page/home-5/footer";
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import DefaulHeader from "@/components/header/DefaulHeader";
+import Header5 from "@/components/header/Header5";
 export const metadata = {
   title: "Contact || Jano - Creative Multipurpose React NextJS Template",
 };
@@ -14,7 +16,7 @@ const ContactV1 = () => {
       Theme Default Menu
       ============================================== 	
       --> */}
-      <DefaulHeader />
+    <Header5 />
 
       {/* 
         =============================================
@@ -26,10 +28,7 @@ const ContactV1 = () => {
           <div className="row">
             <div className="col-lg-7 text-center m-auto" data-aos="fade-up">
               <div className="title-style-five mb-65 lg-mb-40">
-                <div className="sc-title-two fst-italic position-relative d-inline-block">
-                  Contact info
-                </div>
-                <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
+                <h2 className="main-title fw-500 tx-dark">Contacto</h2>
               </div>
             </div>
           </div>
@@ -54,24 +53,6 @@ const ContactV1 = () => {
           </div>
         </div>
         {/* End .container */}
-
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 col-md-9 m-auto">
-              <h2
-                className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40"
-                data-aos="fade-up"
-              >
-                Any question? Send us message.
-              </h2>
-            </div>
-            <div className="col-xl-11 m-auto">
-              <ContactForm />
-              {/* /.form-style-one */}
-            </div>
-          </div>
-        </div>
-        {/* End .container */}
         <Map />
       </div>
 
@@ -80,7 +61,7 @@ const ContactV1 = () => {
         Contact Section One
         ============================================== 
         */}
-      <DefaultFooter />
+      <Footer />
     </>
   );
 };

@@ -7,15 +7,13 @@ import PropertyBlock from "./PropertyBlock";
 const ProperyFilter = () => {
   const [activeTabIndex, setActiveTabIndex] = useState(0);
 
-  const tabNames = ["PROPERTY", "CONDOS", "LAND"];
-
   const handleTabSelect = (index) => {
     setActiveTabIndex(index);
   };
 
   return (
     <>
-      <Tabs selectedIndex={activeTabIndex} onSelect={handleTabSelect}>
+      <Tabs>
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-5" data-aos="fade-right">
             <div className="title-style-eleven text-center text-md-start sm-mb-30">
@@ -24,7 +22,7 @@ const ProperyFilter = () => {
           </div>
           {/* End .col-lg-6 */}
 
-          <div className="col-lg-6 col-md-7" data-aos="fade-left">
+          {/* <div className="col-lg-6 col-md-7" data-aos="fade-left">
             <TabList className="nav nav-tabs border-0 justify-content-center justify-content-md-end">
               {tabNames.map((tabName, index) => (
                 <Tab key={index}>
@@ -38,19 +36,13 @@ const ProperyFilter = () => {
                 </Tab>
               ))}
             </TabList>
-          </div>
+          </div> */}
         </div>
         {/* End row list */}
-
-        <div className="tab-content mt-50 lg-mt-20">
-          {tabNames.map((tabName, index) => (
-            <TabPanel key={index}>
-              <div className="row" data-aos="fade">
+    <div className="row" data-aos="fade">
                 <PropertyBlock />
               </div>
-            </TabPanel>
-          ))}
-        </div>
+ 
       </Tabs>
     </>
   );
