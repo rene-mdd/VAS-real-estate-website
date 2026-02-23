@@ -34,7 +34,7 @@ const Header5 = () => {
           <div className="logo order-lg-0">
             <Link href="/home/real-estate">
               <Image
-                src="/images/logo/lihost-logo-negro.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/lihost-logo-negro.png`}
                 alt="logo"
                 width={100}
                 height={100}
