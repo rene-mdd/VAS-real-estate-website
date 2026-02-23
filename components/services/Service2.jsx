@@ -35,7 +35,7 @@ const Service2 = () => {
               <img src={service.icon} alt="icon" className="lazy-img tran3s" />
             </div>
             <h4 className="title tx-dark">{service.title}</h4>
-            <ul className="style-none">{service.list}</ul>
+            <span className="style-none">{service.list}</span>
           </div>
         </div>
       ))}

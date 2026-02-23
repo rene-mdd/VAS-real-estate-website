@@ -1,12 +1,9 @@
 import BlockContact from "@/components/contact/BlockContact";
-import ContactForm from "@/components/contact/ContactForm";
 import Map from "@/components/contact/Map";
 import Footer from "@/components/home-page/home-5/footer";
-import DefaultFooter from "@/components/footer/DefaultFooter";
-import DefaulHeader from "@/components/header/DefaulHeader";
 import Header5 from "@/components/header/Header5";
 export const metadata = {
-  title: "Contact || Jano - Creative Multipurpose React NextJS Template",
+  title: "Contacto Li.Host",
 };
 const ContactV1 = () => {
   return (

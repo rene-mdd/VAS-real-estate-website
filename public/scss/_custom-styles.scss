@@ -1,4 +1,3 @@
-
 .oferta-wrapper {
   text-align: center;
   p {
@@ -22,6 +21,24 @@
   align-items: center;
   p {
     margin-bottom: 0;
+  }
+}
+.servicios-btn {
+  justify-content: center;
+  margin: 50px 0;
+  .btn-twentyOne {
+    background: #768064 !important;
+  }
+}
+.servicios-marketing-wrapper {
+  background-color: #959581;
+  span { color: white;
+  }
+  h4 {
+    color: white;
+  }
+  h2 {
+    color: white;
   }
 }
 .footer-style-twelve {
@@ -83,10 +100,9 @@
 .huesped-text-wrapper {
   max-width: 480px;
   margin-left: 3rem;
-    @media (max-width: 800px) {
+  @media (max-width: 800px) {
     margin-left: 0;
   }
-
 }
 .email-link {
   text-decoration: none;
@@ -225,7 +241,7 @@
 .home-property-container {
   display: flex;
   flex-direction: column;
-  height: 100%;          /* ensures equal height inside card */
+  height: 100%; /* ensures equal height inside card */
 }
 
 .home-property-container img {
@@ -236,10 +252,9 @@
 .home-property-container .text-meta {
   display: flex;
   flex-direction: column;
-  flex: 1;               /* THIS makes text-meta fill remaining height */
+  flex: 1; /* THIS makes text-meta fill remaining height */
 }
 
 .home-property-container .text-meta .arrow-property-wrapper {
-  margin-top: auto;      /* pushes the arrow to bottom */
+  margin-top: auto; /* pushes the arrow to bottom */
 }
-

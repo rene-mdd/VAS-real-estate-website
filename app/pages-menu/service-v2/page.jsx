@@ -6,7 +6,7 @@ import Service2 from "@/components/services/Service2";
 import Testimonial from "@/components/home-page/home-5/Testimonial";
 import Link from "next/link";
 export const metadata = {
-  title: "Service V2 || Jano - Creative Multipurpose React NextJS Template",
+  title: "Li.Host Servicios",
 };
 const ServiceV2 = () => {
   return (
@@ -102,6 +102,14 @@ const ServiceV2 = () => {
                       para que tú disfrutes de ingresos sin preocupaciones.
                     </p>
                   </div>
+                </div>
+                <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
+                  <Link
+                    href="/contact/contact-v1"
+                    className="btn-twentyOne fw-500 d-lg-block"
+                  >
+                    Contacto
+                  </Link>
                 </div>
               </div>
 
@@ -222,6 +230,14 @@ const ServiceV2 = () => {
                     </p>
                   </div>
                 </div>
+                      <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
+                  <Link
+                    href="/contact/contact-v1"
+                    className="btn-twentyOne fw-500 d-lg-block"
+                  >
+                    Contacto
+                  </Link>
+                </div>
               </div>
 
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
@@ -299,7 +315,7 @@ const ServiceV2 = () => {
 
       {/* Marketing servivicios */}
 
-      <div className="fancy-feature-fiftyThree position-relative pt-150 pb-200 lg-pt-80 lg-pb-110">
+      <div className="fancy-feature-fiftyThree position-relative pt-150 pb-200 lg-pt-80 lg-pb-110 servicios-marketing-wrapper">
         <div className="container">
           <div
             className="title-style-eleven text-center pb-50 lg-pb-20"
@@ -313,33 +329,34 @@ const ServiceV2 = () => {
         </div>
       </div>
 
-       <div className="row">
-          <div className="valor-servicio">
-            <div className="fancy-short-banner-sixteen" data-aos="fade-up">
-              <div className="container">
-                <div className="bg-wrapper mt-150 pb-65 pt-65 mb-65 lg-pt-40 lg-pb-40">
-                  <div className="row">
-                    <div className="col-xl-10 col-md-11 m-auto">
-                      <div className="row align-items-center">
-                        <div className="col-lg-12">
-                          <div className="text-wrapper text-center text-lg-start md-pb-30 oferta-wrapper">
-                            <p className="w-500 m0 oferta-valor">
-                              Valor de nuestros servicios
-                            </p>
-                            <p className="w-500 text-white m0 oferta-porcentaje">
-                              25% DE CADA INGRESO POR RESERVA
-                            </p>
-                            <p className="w-500 text-white m0 oferta-servicios"> ESTO INCLUYE
-                              TODOS LOS SERVICIOS</p>
-                          </div>
+      <div className="row">
+        <div className="valor-servicio">
+          <div className="fancy-short-banner-sixteen" data-aos="fade-up">
+            <div className="container">
+              <div className="bg-wrapper mt-150 pb-65 pt-65 mb-65 lg-pt-40 lg-pb-40">
+                <div className="row">
+                  <div className="col-xl-10 col-md-11 m-auto">
+                    <div className="row align-items-center">
+                      <div className="col-lg-12">
+                        <div className="text-wrapper text-center text-lg-start md-pb-30 oferta-wrapper">
+                          <p className="w-500 m0 oferta-valor">
+                            Valor de nuestros servicios
+                          </p>
+                          <p className="w-500 text-white m0 oferta-porcentaje">
+                            25% DE CADA INGRESO POR RESERVA
+                          </p>
+                          <p className="w-500 text-white m0 oferta-servicios">
+                            {" "}
+                            ESTO INCLUYE TODOS LOS SERVICIOS
+                          </p>
                         </div>
+                      </div>
 
-                        {/* <div className="col-lg-5 ms-auto text-center text-lg-end">
+                      {/* <div className="col-lg-5 ms-auto text-center text-lg-end">
                <h2 className="main-title fw-500 text-white m0">
                         Don’t hesitate to send us message.
                       </h2>
                   </div> */}
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -347,6 +364,7 @@ const ServiceV2 = () => {
             </div>
           </div>
         </div>
+      </div>
 
       <div className="feedback-section-fourteen position-relative zn2">
         <div className="container">
@@ -373,6 +391,14 @@ const ServiceV2 = () => {
                     </p>
                   </div>
                 </div>
+                      <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
+                  <Link
+                    href="/contact/contact-v1"
+                    className="btn-twentyOne fw-500 d-lg-block"
+                  >
+                    Contacto
+                  </Link>
+                </div>
               </div>
 
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
@@ -395,7 +421,6 @@ const ServiceV2 = () => {
             </div>
           </div>
         </div>
-       
       </div>
 
       <div className="feedback-section-fourteen position-relative zn2">
@@ -486,6 +511,14 @@ const ServiceV2 = () => {
                     </p>
                   </div>
                 </div>
+                      <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
+                  <Link
+                    href="/contact/contact-v1"
+                    className="btn-twentyOne fw-500 d-lg-block"
+                  >
+                    Contacto
+                  </Link>
+                </div>
               </div>
 
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
@@ -503,8 +536,8 @@ const ServiceV2 = () => {
             </div>
           </div>
         </div>
-   
-       <div className="row">
+
+        <div className="row">
           <div className="valor-servicio">
             <div className="fancy-short-banner-sixteen" data-aos="fade-up">
               <div className="container">
@@ -520,7 +553,10 @@ const ServiceV2 = () => {
                             <p className="w-500 text-white m0 oferta-porcentaje">
                               20% DEL MONTO TOTAL PRESUPUESTO DEL CLIENTE
                             </p>
-                            <p className="w-500 text-white m0 oferta-servicios"> ESTO INCLUYE SERVICIOS DE INSTALACIÓN</p>
+                            <p className="w-500 text-white m0 oferta-servicios">
+                              {" "}
+                              ESTO INCLUYE SERVICIOS DE INSTALACIÓN
+                            </p>
                           </div>
                         </div>
 
@@ -594,7 +630,6 @@ const ServiceV2 = () => {
         Fancy Short Banner Fifteen
         =====================================================
         */}
-
 
       {/* <!--
         =====================================================
