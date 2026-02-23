@@ -1,9 +1,8 @@
-import Insurance from "./home/insurance/page";
 export const metadata = {
-  title: "Insurance || Jano - Creative Multipurpose React NextJS Template",
+  title: "Li.Host Propiedades - Real Estate",
 };
 const MainRoot = () => {
-  return <Insurance />;
+  return <></>;
 };
 
 export default MainRoot;

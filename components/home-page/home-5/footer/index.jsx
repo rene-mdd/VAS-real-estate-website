@@ -4,7 +4,6 @@ import FooterMenu from "./FooterMenu";
 import Social from "./Social";
 
 const index = () => {
-  const currentYear = new Date().getFullYear();
   return (
     <div className="footer-style-twelve theme-basic-footer position-relative zn2">
       <div className="container">
@@ -12,12 +11,12 @@ const index = () => {
           <div className="row justify-content-between">
             <div className="col-lg-4 footer-intro mb-40">
               <div className="logo">
-                <Link href="/">
-                  <img src="/images/logo/logo_02.png" alt="brand" width={95} />
+                <Link href="/home/real-estate">
+                  <img src={`/images/logo/lihost-white.png`} alt="li.host logo" width={95} />
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">
-                Best non-profit solution for charity.
+                Gestionamos tu propiedad a corta estancia como si fuera nuestra
               </p>
               <Social />
             </div>
@@ -27,15 +26,18 @@ const index = () => {
             <Address />
           </div>
           {/* End .row */}
-          <p className="copyright text-center pt-30 m0">
-            © 2010 - {currentYear} jano inc.
+          <div className="vas-info-wrapper">
+          <p>
+            Creado por:
           </p>
+          <img src={`/images/logo/vas-logo-blanco.png`} width={100} />
+          </div>
         </div>
         {/* /.inner-wrapper */}
       </div>
       {/* End .container */}
       <img
-        src="/images/shape/shape_170.svg"
+        src={`/images/shape/shape_170.svg`}
         alt="shape"
         className="lazy-img shapes shape-one"
       />

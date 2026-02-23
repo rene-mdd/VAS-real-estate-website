@@ -1,24 +1,24 @@
 const FooterMenu = () => {
   const footerData = [
     {
-      title: "About",
+      title: "Menu",
       links: [
-        { title: "Home", href: "/" },
-        { title: "Learn about us", href: "/about-v1" },
-        { title: "Careers", href: "/about-v1" },
-        { title: "Features", href: "/service-v1" },
-        { title: "Blog", href: "/blog-v1" },
+        { title: "Inicio", href: `/home/real-estate` },
+        { title: "Servicios", href: `/pages-menu/service-v2` },
+        { title: "Contacto", href: `/contact/contact-v1` },
+        // { title: "Features", href: "/service-v1" },
+        // { title: "Blog", href: "/blog-v1" },
       ],
       colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section
     },
     {
-      title: "Services",
+      title: "",
       links: [
-        { title: "Charity", href: "/service-details" },
-        { title: "Donation", href: "/service-details" },
-        { title: "Fundrising", href: "/service-details" },
-        { title: "Our Campaign", href: "/service-details" },
-        { title: "Volunteer", href: "/service-details" },
+        // { title: "Propiedad 1", href: "/service-details" },
+        // { title: "propiedad 2", href: "/service-details" },
+        // { title: "propiedad 3", href: "/service-details" },
+        // { title: "Propiedad 4", href: "/service-details" },
+        // { title: "Propiedad 5", href: "/service-details" },
       ],
       colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section
     },

@@ -18,7 +18,7 @@ const DefaultFooter = () => {
             </div>
             {/* End .col */}
 
-            <Footer2 />
+            {/* <Footer2 /> */}
 
             <div className="col-xl-4 col-lg-5 mb-30 form-widget">
               <h5 className="footer-title tx-dark fw-normal">Newslettert</h5>
@@ -35,7 +35,7 @@ const DefaultFooter = () => {
         {/* /.container */}
       </div>
       {/* /.bg-wrapper */}
-      <CopyrightFooter2 />
+      {/* <CopyrightFooter2 /> */}
       {/* /.bottom-footer */}
       <img
         src="/images/shape/shape_173.svg"
