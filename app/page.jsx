@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Li.Host Propiedades - Real Estate",
+  title: "Li.Host",
 };
 const MainRoot = () => {
   return <></>;
