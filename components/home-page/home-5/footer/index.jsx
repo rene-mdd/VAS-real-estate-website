@@ -12,7 +12,7 @@ const index = () => {
             <div className="col-lg-4 footer-intro mb-40">
               <div className="logo">
                 <Link href="/home/real-estate">
-                  <img src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/lihost-white.png`} alt="li.host logo" width={95} />
+                  <img src={`/images/logo/lihost-white.png`} alt="li.host logo" width={95} />
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">
@@ -30,14 +30,14 @@ const index = () => {
           <p>
             Creado por:
           </p>
-          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/vas-logo-blanco.png`} width={100} />
+          <img src={`/images/logo/vas-logo-blanco.png`} width={100} />
           </div>
         </div>
         {/* /.inner-wrapper */}
       </div>
       {/* End .container */}
       <img
-        src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/shape/shape_170.svg`}
+        src={`/images/shape/shape_170.svg`}
         alt="shape"
         className="lazy-img shapes shape-one"
       />

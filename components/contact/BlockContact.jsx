@@ -3,20 +3,20 @@ import Image from "next/image";
 const BlockContact = () => {
   const addressBlocks = [
     {
-      icon: `${process.env.NEXT_PUBLIC_BASE_PATH }/images/icon/icon_147.svg`,
+      icon: `/images/icon/icon_147.svg`,
       title: "Nuestra dirección ",
       content: "Punta Cana, República Dominicana",
       delay: "100",
     },
     {
-      icon: `${process.env.NEXT_PUBLIC_BASE_PATH }/images/icon/icon_148.svg`,
+      icon: `/images/icon/icon_148.svg`,
       title: "Contacto",
       content: "Teléfono",
       link: "tel:829-383-0866",
       delay: "200",
     },
     {
-      icon: `${process.env.NEXT_PUBLIC_BASE_PATH }/images/icon/icon_149.svg`,
+      icon: `/images/icon/icon_149.svg`,
       title: "Correo electrónico",
       content: "Escríbenos",
       link: "mailto:li.hostrd@gmail.com",

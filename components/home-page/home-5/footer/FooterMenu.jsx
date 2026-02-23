@@ -3,9 +3,9 @@ const FooterMenu = () => {
     {
       title: "Menu",
       links: [
-        { title: "Inicio", href: `${process.env.NEXT_PUBLIC_BASE_PATH }/home/real-estate` },
-        { title: "Servicios", href: `${process.env.NEXT_PUBLIC_BASE_PATH }/pages-menu/service-v2` },
-        { title: "Contacto", href: `${process.env.NEXT_PUBLIC_BASE_PATH }/contact/contact-v1` },
+        { title: "Inicio", href: `/home/real-estate` },
+        { title: "Servicios", href: `/pages-menu/service-v2` },
+        { title: "Contacto", href: `/contact/contact-v1` },
         // { title: "Features", href: "/service-v1" },
         // { title: "Blog", href: "/blog-v1" },
       ],

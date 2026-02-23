@@ -31,7 +31,7 @@ const MainMenu = () => {
           <li className="d-block d-lg-none mb-3">
             <Link href="/home/real-estate" className="d-block">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/vas-logo-blanco.png`}
+                src={`/images/logo/vas-logo-blanco.png`}
                 alt="logo"
                 width={95}
                 height={30}

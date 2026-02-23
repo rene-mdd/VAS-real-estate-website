@@ -25,7 +25,7 @@ const RealEstate = () => {
               <div data-aos="fade-right">
                 <div className="title-style-five home-main-left-wrapper">
                   <img
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/lihost-logo-big-negro.png`}
+                    src={`/images/logo/lihost-logo-big-negro.png`}
                     width={300}
                   />
                   <h2 className="main-title fw-500 tx-dark">LI.HOST</h2>
@@ -57,7 +57,7 @@ const RealEstate = () => {
               <div>
                 <div className="img-holder position-relative mt-25" data-aos="fade-left">
                   <img
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/homepage-right-image.jpg`}
+                    src={`/images/gallery/homepage-right-image.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto"
                   />
@@ -77,7 +77,7 @@ const RealEstate = () => {
         </div>
 
         <img
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/shape/shape_163.svg`}
+          src={`/images/shape/shape_163.svg`}
           alt="media"
           className="lazy-img shapes shape-one"
         />
@@ -87,7 +87,7 @@ const RealEstate = () => {
           SOBRE NOSOTROS
       ============================================== */}
   <div className="container pt-150 nuestro-objetivo-wrapper">
-    <img src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/nuestro-objetivo-img.jpg`} className="objetivo-img" alt="objetivos-img" />
+    <img src={`/images/gallery/nuestro-objetivo-img.jpg`} className="objetivo-img" alt="objetivos-img" />
   <div className="row align-items-start">
     {/* LEFT COLUMN */}
     <div className="col-lg-6 mt-65 mb-65" data-aos="fade-right">
