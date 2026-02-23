@@ -4,7 +4,6 @@ import FooterMenu from "./FooterMenu";
 import Social from "./Social";
 
 const index = () => {
-  const currentYear = new Date().getFullYear();
   return (
     <div className="footer-style-twelve theme-basic-footer position-relative zn2">
       <div className="container">
@@ -13,7 +12,7 @@ const index = () => {
             <div className="col-lg-4 footer-intro mb-40">
               <div className="logo">
                 <Link href="/home/real-estate">
-                  <img src="/images/logo/lihost-white.png" alt="brand" width={95} />
+                  <img src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/lihost-white.png`} alt="li.host logo" width={95} />
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">
@@ -31,14 +30,14 @@ const index = () => {
           <p>
             Creado por:
           </p>
-          <img src="/images/logo/vas-logo-blanco.png" width={100} />
+          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/vas-logo-blanco.png`} width={100} />
           </div>
         </div>
         {/* /.inner-wrapper */}
       </div>
       {/* End .container */}
       <img
-        src="/images/shape/shape_170.svg"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/shape/shape_170.svg`}
         alt="shape"
         className="lazy-img shapes shape-one"
       />

@@ -32,7 +32,7 @@ const ContactV1 = () => {
         </div>
         {/* /.container */}
         <img
-          src="/images/shape/shape_172.svg"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/shape/shape_172.svg`}
           alt="shape"
           className="lazy-img shapes shape-two"
         />

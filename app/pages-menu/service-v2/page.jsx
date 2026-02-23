@@ -1,9 +1,6 @@
 import Header5 from "@/components/header/Header5";
-import Property from "@/components/home-page/home-5/Property";
-import CallToActions from "@/components/home-page/home-5/CallToActions";
 import Footer from "@/components/home-page/home-5/footer";
 import Service2 from "@/components/services/Service2";
-import Testimonial from "@/components/home-page/home-5/Testimonial";
 import Link from "next/link";
 export const metadata = {
   title: "Li.Host Servicios",
@@ -119,7 +116,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/administracion.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/administracion.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto servicios-img"
                   />
@@ -145,12 +142,12 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/huesped.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/huesped.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto servicios-img"
                   />
                   <img
-                    src="/images/gallery/huesped-sub.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/huesped-sub.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto huesped-sub-img"
                   />
@@ -246,7 +243,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/propiedad.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/propiedad.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto"
                   />
@@ -267,7 +264,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/limpieza.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/limpieza.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto"
                   />
@@ -407,7 +404,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/amueblado.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/amueblado.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto servicios-img"
                   />
@@ -433,12 +430,12 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/diseno-top.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/diseno-top.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto diseno-top-img"
                   />
                   <img
-                    src="/images/gallery/diseno-bottom.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/diseno-bottom.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto diseno-bottom-img"
                   />
@@ -527,7 +524,7 @@ const ServiceV2 = () => {
                   data-aos="fade-left"
                 >
                   <img
-                    src="/images/gallery/instalaciones.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/instalaciones.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto"
                   />

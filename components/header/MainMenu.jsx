@@ -31,7 +31,7 @@ const MainMenu = () => {
           <li className="d-block d-lg-none mb-3">
             <Link href="/home/real-estate" className="d-block">
               <Image
-                src="/images/logo/logo_01.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/vas-logo-blanco.png`}
                 alt="logo"
                 width={95}
                 height={30}
@@ -84,12 +84,12 @@ const MainMenu = () => {
           </li>
         </ul>
 
-        {/* MOBILE CTA */}
+        {/* MOBILE CTA
         <div className="mobile-content d-block d-lg-none mt-40 text-center">
           <Link href="/contact" className="btn-twentyOne fw-500 tran3s">
             Contact us
           </Link>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

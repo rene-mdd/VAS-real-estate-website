@@ -1,17 +1,7 @@
 import Header5 from "@/components/header/Header5";
 import FilterProperty from "@/components/home-page/home-5/ProperyFilter";
-import Property from "@/components/home-page/home-5/Property";
-import Quote from "@/components/home-page/home-5/Quote";
 import Hero from "@/components/home-page/home-5/hero";
-import About from "@/components/home-page/home-5/about";
-import FancySection from "@/components/home-page/home-5/FancySection";
-import Testimonial from "@/components/home-page/home-5/Testimonial";
-import Blog from "@/components/home-page/home-5/Blog";
-import Faq from "@/components/home-page/home-5/Faq";
-import CallToActions from "@/components/home-page/home-5/CallToActions";
 import Footer from "@/components/home-page/home-5/footer";
-import Link from "next/link";
-
 export const metadata = {
   title: "Li.Host Propiedades - Real Estate",
 };
@@ -35,7 +25,7 @@ const RealEstate = () => {
               <div data-aos="fade-right">
                 <div className="title-style-five home-main-left-wrapper">
                   <img
-                    src="/images/logo/lihost-logo-big-negro.png"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/logo/lihost-logo-big-negro.png`}
                     width={300}
                   />
                   <h2 className="main-title fw-500 tx-dark">LI.HOST</h2>
@@ -67,7 +57,7 @@ const RealEstate = () => {
               <div>
                 <div className="img-holder position-relative mt-25" data-aos="fade-left">
                   <img
-                    src="/images/gallery/homepage-right-image.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/homepage-right-image.jpg`}
                     alt="shape"
                     className="lazy-img ms-auto"
                   />
@@ -87,7 +77,7 @@ const RealEstate = () => {
         </div>
 
         <img
-          src="/images/shape/shape_163.svg"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/shape/shape_163.svg`}
           alt="media"
           className="lazy-img shapes shape-one"
         />
@@ -97,7 +87,7 @@ const RealEstate = () => {
           SOBRE NOSOTROS
       ============================================== */}
   <div className="container pt-150 nuestro-objetivo-wrapper">
-    <img src="/images/gallery/nuestro-objetivo-img.jpg" className="objetivo-img" alt="objetivos-img" />
+    <img src={`${process.env.NEXT_PUBLIC_BASE_PATH }/images/gallery/nuestro-objetivo-img.jpg`} className="objetivo-img" alt="objetivos-img" />
   <div className="row align-items-start">
     {/* LEFT COLUMN */}
     <div className="col-lg-6 mt-65 mb-65" data-aos="fade-right">
