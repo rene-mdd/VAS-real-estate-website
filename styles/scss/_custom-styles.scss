@@ -242,10 +242,33 @@
     }
   }
 }
+.lihost-main-img {
+  img {
+    border-radius: 6px;
+  }
+}
+.property-name {
+
+  display: flex;             /* makes it a flex container */
+  flex-direction: column;    /* stack children vertically */
+  align-items: stretch;      /* ensures children stretch to full height */
+  text-decoration: none;     /* optional: remove underline */
+  height: 100%;
+}
 .home-property-container {
   display: flex;
   flex-direction: column;
-  height: 100%; /* ensures equal height inside card */
+  height: 100%;
+  transition:
+    transform 1s ease,
+    box-shadow 1s ease;
+  border-radius: 6px;
+  overflow: hidden;
+  flex: 1;
+  &:hover {
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Shadow pop */
+  }
 }
 
 .home-property-container img {
@@ -261,4 +284,14 @@
 
 .home-property-container .text-meta .arrow-property-wrapper {
   margin-top: auto; /* pushes the arrow to bottom */
+}
+
+.address-block-two p .call {
+  color: black;
+}
+
+.address-block-two p .webaddress {
+  &:hover {
+      text-decoration: underline;
+  }
 }

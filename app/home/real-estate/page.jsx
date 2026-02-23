@@ -3,7 +3,7 @@ import FilterProperty from "@/components/home-page/home-5/ProperyFilter";
 import Hero from "@/components/home-page/home-5/hero";
 import Footer from "@/components/home-page/home-5/footer";
 export const metadata = {
-  title: "Li.Host Propiedades - Real Estate",
+  title: "Li.Host",
 };
 
 const RealEstate = () => {
@@ -40,7 +40,7 @@ const RealEstate = () => {
                   </p>
 
                   <div className="amueblado-contact-wrapper">
-                    <a href="mailto:li.hostrd@gmail.com">@Li.hostrd</a>
+                    <a href="https://www.instagram.com/li.host/">@Li.hostrd</a>
                     <a href="mailto:li.hostrd@gmail.com">
                       li.hostrd@gmail.com
                     </a>
@@ -55,10 +55,10 @@ const RealEstate = () => {
 
               {/* RIGHT SIDE IMAGE */}
               <div>
-                <div className="img-holder position-relative mt-25" data-aos="fade-left">
+                <div className="img-holder position-relative mt-25 lihost-main-img" data-aos="fade-left">
                   <img
                     src={`/images/gallery/homepage-right-image.jpg`}
-                    alt="shape"
+                    alt="habitacion"
                     className="lazy-img ms-auto"
                   />
                 </div>
