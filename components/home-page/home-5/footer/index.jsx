@@ -12,8 +12,8 @@ const index = () => {
           <div className="row justify-content-between">
             <div className="col-lg-4 footer-intro mb-40">
               <div className="logo">
-                <Link href="/">
-                  <img src="/images/logo/logo_02.png" alt="brand" width={95} />
+                <Link href="/home/real-estate">
+                  <img src="/images/logo/lihost-white.png" alt="brand" width={95} />
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">
