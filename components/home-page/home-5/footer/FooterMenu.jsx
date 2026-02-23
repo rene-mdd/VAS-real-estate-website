@@ -3,9 +3,9 @@ const FooterMenu = () => {
     {
       title: "Menu",
       links: [
-        { title: "Inicio", href: `/home/real-estate` },
-        { title: "Servicios", href: `/pages-menu/service-v2` },
-        { title: "Contacto", href: `/contact/contact-v1` },
+        { title: "Inicio", href: `/` },
+        { title: "Servicios", href: `/servicios` },
+        { title: "Contacto", href: `/contacto` },
         // { title: "Features", href: "/service-v1" },
         // { title: "Blog", href: "/blog-v1" },
       ],

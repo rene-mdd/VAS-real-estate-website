@@ -9,10 +9,10 @@ const properties = [
   },
   {
     imgSrc: `/images/gallery/the-towers-f307/7.jpg`,
-    name: "No data",
+    name: "The Towers at Vista Cana",
     address:
-      "Enjoy a modern and cozy fully equipped apartment, perfect for couples, small families, or groups of up to 4 people.",
-    link: "https://www.airbnb.com/rooms/1435766236250061501?source_impression_id=p3_1771504839_P38VnEQMWqQorahU",
+      "Enjoy a modern and cozy fully equipped apartment, perfect for couples.",
+    link: "https://www.airbnb.com/rooms/1435766236250061501?source_impression_id=p3_1771869409_P3G0PAB7avyzfIn7",
   },
   {
     imgSrc: `/images/gallery/the-towers-g103/img_3795.jpg`,
