@@ -102,7 +102,7 @@ const ServiceV2 = () => {
                 </div>
                 <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
                   <Link
-                    href="/contact/contact-v1"
+                    href="/contacto"
                     className="btn-twentyOne fw-500 d-lg-block"
                   >
                     Contacto
@@ -229,7 +229,7 @@ const ServiceV2 = () => {
                 </div>
                       <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
                   <Link
-                    href="/contact/contact-v1"
+                    href="/contacto"
                     className="btn-twentyOne fw-500 d-lg-block"
                   >
                     Contacto
@@ -390,7 +390,7 @@ const ServiceV2 = () => {
                 </div>
                       <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
                   <Link
-                    href="/contact/contact-v1"
+                    href="/contacto"
                     className="btn-twentyOne fw-500 d-lg-block"
                   >
                     Contacto
@@ -510,7 +510,7 @@ const ServiceV2 = () => {
                 </div>
                       <div className="right-widget ms-auto d-flex align-items-center order-lg-3 servicios-btn">
                   <Link
-                    href="/contact/contact-v1"
+                    href="/contacto"
                     className="btn-twentyOne fw-500 d-lg-block"
                   >
                     Contacto

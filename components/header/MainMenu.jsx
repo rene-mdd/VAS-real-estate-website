@@ -26,10 +26,9 @@ const MainMenu = () => {
 
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav align-items-lg-center">
-
           {/* Logo on mobile */}
           <li className="d-block d-lg-none mb-3">
-            <Link href="/home/real-estate" className="d-block">
+            <Link href="/" className="d-block">
               <Image
                 src={`/images/logo/vas-logo-blanco.png`}
                 alt="logo"
@@ -43,7 +42,7 @@ const MainMenu = () => {
 
           <li className="nav-item">
             <Link
-              href="/home/real-estate"
+              href="/"
               className={`nav-link ${isActive("/") ? "active-menu" : ""}`}
             >
               Inicio
@@ -63,7 +62,7 @@ const MainMenu = () => {
 
           <li className="nav-item">
             <Link
-              href="/pages-menu/service-v2"
+              href="/servicios"
               className={`nav-link ${
                 isActive("/services") ? "active-menu" : ""
               }`}
@@ -74,7 +73,7 @@ const MainMenu = () => {
 
           <li className="nav-item">
             <Link
-              href="/contact/contact-v1"
+              href="/contacto"
               className={`nav-link ${
                 isActive("/contact") ? "active-menu" : ""
               }`}

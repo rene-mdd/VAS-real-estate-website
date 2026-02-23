@@ -11,7 +11,7 @@ const index = () => {
           <div className="row justify-content-between">
             <div className="col-lg-4 footer-intro mb-40">
               <div className="logo">
-                <Link href="/home/real-estate">
+                <Link href="/">
                   <img src={`/images/logo/lihost-white.png`} alt="li.host logo" width={95} />
                 </Link>
               </div>

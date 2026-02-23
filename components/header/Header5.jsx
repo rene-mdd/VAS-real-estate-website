@@ -32,7 +32,7 @@ const Header5 = () => {
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href="/home/real-estate">
+            <Link href="/">
               <Image
                 src={`/images/logo/lihost-logo-negro.png`}
                 alt="logo"
