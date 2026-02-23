@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
-const BASE_PATH = "/VAS-real-estate-website";
+const BASE_PATH = "/vas-real-estate-website";
 
 module.exports = {
   // Add this prefix only for production, so _next, CSS, JS all use it on GitHub Pages
