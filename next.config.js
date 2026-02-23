@@ -6,8 +6,8 @@ const nextConfig = {
   output: "export",
 
   // REQUIRED for GitHub Pages
-  basePath: isProd ? "/my-project" : "",
-  assetPrefix: isProd ? "/my-project/" : "",
+  basePath: isProd ? "/VAS-real-estate-website" : "",
+  assetPrefix: isProd ? "/VAS-real-estate-website/" : "",
 
   sassOptions: {
     quietDeps: true,
